@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="75002b3e-c20f-46e6-9aa6-06c79526e915" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1579/Core.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Core.xsd" MetadataType="Schema" ID="aeb50b6d-ff12-4786-91c4-813e68abe8df" SourceId="1" SourceUrl="http://localhost:1579/Core.svc?xsd=xsd0" />
+    <MetadataFile FileName="Core.disco" MetadataType="Disco" ID="a47cf337-56b8-4bb1-bb22-c07a8a2fcdb5" SourceId="1" SourceUrl="http://localhost:1579/Core.svc?disco" />
+    <MetadataFile FileName="Core1.xsd" MetadataType="Schema" ID="6c9e49ab-d149-4c2c-b745-a0236d74e81e" SourceId="1" SourceUrl="http://localhost:1579/Core.svc?xsd=xsd3" />
+    <MetadataFile FileName="Core.wsdl" MetadataType="Wsdl" ID="1dda6770-01bf-42b0-a5a1-2743e13e9cec" SourceId="1" SourceUrl="http://localhost:1579/Core.svc?wsdl" />
+    <MetadataFile FileName="Core2.xsd" MetadataType="Schema" ID="1f086e7c-2a92-4163-887b-24128fe65901" SourceId="1" SourceUrl="http://localhost:1579/Core.svc?xsd=xsd2" />
+    <MetadataFile FileName="Core3.xsd" MetadataType="Schema" ID="eb4f569f-83d1-4fef-b913-d8cf9963b5da" SourceId="1" SourceUrl="http://localhost:1579/Core.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
